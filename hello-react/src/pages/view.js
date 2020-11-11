@@ -2,7 +2,7 @@ import React from 'react';
 
 const databaseURL = "https://fir-test-984ca.firebaseio.com";
 
-class Books extends React.Component {
+class App3 extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -46,9 +46,7 @@ class Books extends React.Component {
                 <table>
                 <tbody>
                     <td>
-                    <tr><input type="radio" name="chk_gender" value="1"/>{book.subject}</tr>
-                    <tr>{book.title}</tr>
-                    <td>{book.writer}</td>
+                    <tr><input type="radio" name="chk_gender" value="1"/>{book.title}</tr>
                     </td>
                 </tbody>
                 </table>
@@ -61,4 +59,4 @@ class Books extends React.Component {
   }
 }
 
-export default Books;
+export default App3;
